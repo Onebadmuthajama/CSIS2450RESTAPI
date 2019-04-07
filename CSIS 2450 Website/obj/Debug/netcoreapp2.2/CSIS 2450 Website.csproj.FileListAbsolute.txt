@@ -1,0 +1,14 @@
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.deps.json
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.runtimeconfig.json
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.runtimeconfig.dev.json
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.dll
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.csprojAssemblyReference.cache
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.csproj.CoreCompileInputs.cache
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.RazorAssemblyInfo.cache
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.RazorAssemblyInfo.cs
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.AssemblyInfoInputs.cache
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.AssemblyInfo.cs
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.RazorTargetAssemblyInfo.cache
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.pdb
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.dll
+D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.pdb
