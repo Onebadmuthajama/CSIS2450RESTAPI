@@ -16,15 +16,15 @@ namespace CSIS_2450_Website.Models {
     public string Description { get; set; }
 
     [Required]
-    public int Category { get; set; }
+    public int CategoryId { get; set; }
 
     [Required]
     public int Priority { get; set; }
 
-    [Required]
-    public DateTime StartDate { get; set; }
-
-    public DateTime? EndDate { get; set; }
+//    [Required]
+//    public DateTime StartDate { get; set; }
+//
+//    public DateTime? EndDate { get; set; }
 
     [Required]
     public int UserId { get; set; }

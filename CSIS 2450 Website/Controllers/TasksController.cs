@@ -16,14 +16,14 @@ namespace CSIS_2450_Website.Controllers {
     }
 
     // GET: api/Tasks
-    [HttpGet]
-    public async Task<List<Tasks>> GetTask() {
-      return await _context.Tasks.ToListAsync();
+    [HttpGet("{categoryId}")]
+    public async Task<List<Tasks>> GetTask(int categoryId) {
+      return await _context.Tasks.Where(x => x.CategoryId == categoryId).ToListAsync();
     }
 
     // GET: api/Tasks/5
-    [HttpGet("{id}")]
-    public async Task<ActionResult<Tasks>> GetTask(int id) {
+    [HttpGet("{id}/{categoryId}")]
+    public async Task<ActionResult<Tasks>> GetTask(int id, int categoryId) {
       var task = await _context.Tasks.FindAsync(id);
 
       if (task == null) {
@@ -35,7 +35,7 @@ namespace CSIS_2450_Website.Controllers {
 
     // PUT: api/Tasks/5
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutTask(int id, Task task) {
+    public async Task<ActionResult<Tasks>> PutTask(int id, Tasks task) {
       if (id != task.Id) {
         return BadRequest();
       }
@@ -54,12 +54,13 @@ namespace CSIS_2450_Website.Controllers {
         }
       }
 
-      return NoContent();
+      return task;
     }
 
     // POST: api/Tasks
-    [HttpPost]
-    public async Task<ActionResult<Tasks>> PostTask(Tasks task) {
+    [HttpPost("{categoryId}")]
+    public async Task<ActionResult<Tasks>> PostTask(int categoryId, Tasks task) {
+      task.CategoryId = categoryId;
       _context.Tasks.Add(task);
       await _context.SaveChangesAsync();
 
@@ -68,7 +69,7 @@ namespace CSIS_2450_Website.Controllers {
 
     // DELETE: api/Tasks/5
     [HttpDelete("{id}")]
-    public async Task<ActionResult<Task>> DeleteTask(int id) {
+    public async Task<ActionResult<Tasks>> DeleteTask(int id) {
       var task = await _context.Tasks.FindAsync(id);
       if (task == null) {
         return NotFound();
@@ -77,7 +78,7 @@ namespace CSIS_2450_Website.Controllers {
       _context.Tasks.Remove(task);
       await _context.SaveChangesAsync();
 
-      return NoContent();
+      return task;
     }
 
     private bool TaskExists(int id) {

@@ -15,15 +15,15 @@ namespace CSIS_2450_Website.Controllers {
       _context = context;
     }
 
-    // GET: api/Categories
-    [HttpGet]
-    public async Task<ActionResult<IEnumerable<Categories>>> GetCategories() {
-      return await _context.Categories.ToListAsync();
+    // GET: api/Categories/1
+    [HttpGet("{userId}")]
+    public async Task<ActionResult<IEnumerable<Categories>>> GetCategories(int userId) {
+      return await _context.Categories.Where(x => x.UserId == userId).ToListAsync();
     }
 
-    // GET: api/Categories/5
-    [HttpGet("{id}")]
-    public async Task<ActionResult<Categories>> GetCategories(int id) {
+    // GET: api/Categories/1/5
+    [HttpGet("{userId}/{id}")]
+    public async Task<ActionResult<Categories>> GetCategory(int id) {
       var categories = await _context.Categories.FindAsync(id);
 
       if (categories == null) {
@@ -33,9 +33,9 @@ namespace CSIS_2450_Website.Controllers {
       return categories;
     }
 
-    // PUT: api/Categories/5
+    // PUT: api/Categories/6
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutCategories(int id, Categories categories) {
+    public async Task<ActionResult<Categories>> PutCategories(int id, Categories categories) {
       if (id != categories.Id) {
         return BadRequest();
       }
@@ -50,23 +50,24 @@ namespace CSIS_2450_Website.Controllers {
           return NotFound();
         }
         else {
-          throw;
+          return BadRequest();
         }
       }
 
-      return NoContent();
+      return categories;
     }
 
-    // POST: api/Categories
-    [HttpPost]
-    public async Task<ActionResult<Categories>> PostCategories(Categories categories) {
+    // POST: api/Categories/1
+    [HttpPost("{userId}")]
+    public async Task<ActionResult<Categories>> PostCategories(int userId, Categories categories) {
+      categories.UserId = userId;
       _context.Categories.Add(categories);
       await _context.SaveChangesAsync();
 
       return categories;
     }
 
-    // DELETE: api/Categories/5
+    // DELETE: api/Categories/6
     [HttpDelete("{id}")]
     public async Task<ActionResult<Categories>> DeleteCategories(int id) {
       var categories = await _context.Categories.FindAsync(id);
