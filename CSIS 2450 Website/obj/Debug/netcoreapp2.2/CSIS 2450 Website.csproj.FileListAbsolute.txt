@@ -12,3 +12,17 @@ D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Web
 D:\Dev\CSIS 2450 Website\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.pdb
 D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.dll
 D:\Dev\CSIS 2450 Website\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.pdb
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.deps.json
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.runtimeconfig.json
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.runtimeconfig.dev.json
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.dll
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\bin\Debug\netcoreapp2.2\CSIS 2450 Website.pdb
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.csprojAssemblyReference.cache
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.csproj.CoreCompileInputs.cache
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.RazorAssemblyInfo.cache
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.RazorAssemblyInfo.cs
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.AssemblyInfoInputs.cache
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.AssemblyInfo.cs
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.RazorTargetAssemblyInfo.cache
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.dll
+C:\Users\kadenlovell\Desktop\School Repos\CSIS2450RESTAPI\CSIS 2450 Website\obj\Debug\netcoreapp2.2\CSIS 2450 Website.pdb
